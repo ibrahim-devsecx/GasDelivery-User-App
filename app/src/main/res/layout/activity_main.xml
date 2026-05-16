@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.MainActivity">
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/mainBottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/red_400"
+        android:layout_gravity="bottom"
+        app:fabCradleMargin="@dimen/DP20"
+        app:fabCradleRoundedCornerRadius="@dimen/DP20"
+        app:fabCradleVerticalOffset="@dimen/DP10">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/main_bottom_navigation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:backgroundTint="@android:color/transparent"
+            app:itemIconTint="@color/selector_bottom_navigation"
+            app:menu="@menu/bottom_navigation_menu"
+            android:layout_marginEnd="16dp"/>
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/main_fab_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@drawable/ic_location"
+        app:backgroundTint="@color/colorAccent"
+        app:layout_anchor="@id/mainBottomAppBar"/>
+
+    <FrameLayout
+        android:id="@+id/main_layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="55dp"
+        app:layout_anchor="@id/mainBottomAppBar"
+        app:layout_anchorGravity="top|center_horizontal">
+
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

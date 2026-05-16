@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "659784235815",
+    "project_id": "gas-app-63da0",
+    "storage_bucket": "gas-app-63da0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659784235815:android:22d26f7ffae46a6786c702",
+        "android_client_info": {
+          "package_name": "com.ibm.gasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659784235815-lvmbaugtr4ht8eqhherhs1re58psgsii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDPIo34VZT3qmjDzz0sbaczAKTLQVpK5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659784235815-lvmbaugtr4ht8eqhherhs1re58psgsii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Gas Delivery</string>
+
+
+    <string name="item_request_order_number">رقم طلب</string>
+    <string name="item_request_date">تاريخ : </string>
+    <string name="item_request_time">الوقت : </string>
+    <string name="item_request_request_status">حالة الطلب : </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps_request">Map</string>
+
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBg5K5Mjl-0zgWwOKjEOmSfqVvRFMSFrK8</string>
+    <string name="verify">تحقق</string>
+
+    <string name="sign_up">مستخدم جديد</string>
+    <string name="fill_name">الاسم بالكامل</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="mention">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="already_have_an_account">هل لديك حساب؟ تسجيل الدخول.</string>
+    <string name="valid_number_is_required">اذخل رقم بشكل صحيح</string>
+    <string name="number_already_exists">هذا الرقم موجود بالفعل</string>
+
+
+    <string name="please_enter_it_below">تم إرسال رسالة إليك على هاتفك المحمول. الرجاء إدخاله أدناه</string>
+
+    <string name="un_Registered">ليس لديك حساب ! اذهب الي تسجيل جديد</string>
+
+    <string name="sign_in">تسجيل دخول</string>
+    <string name="send_request">ارسال طلب</string>
+    <string name="all_requests">جميع طالباتك</string>
+
+    <string name="customers_service">خدمة العملاء</string>
+
+    <string name="confirmation_message">هل أنت متأكد من طلب الغاز؟</string>
+    <string name="confirmation">تأكيد</string>
+    <string name="cancel">الغاء</string>
+
+    <string name="successfully_requested">تم طلب بنجاح</string>
+
+    <string name="notification_title_request">طلب جديد</string>
+
+    <string name="underway">قيد التنفيد</string>
+    <string name="delivered">تم تسليم</string>
+    <string name="request_case">حالة الطلب : </string>
+
+    <string name="gender">الجنس : </string>
+    <string name="log_off">تسجيل خروج</string>
+
+
+</resources>
