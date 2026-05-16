@@ -31,13 +31,13 @@ The project was built as a graduation project to simplify the gas ordering proce
 <table align="center">
   <tr>
     <td align="center">
-      <img src="screenshots/user/splash_screen.png" alt="Splash Screen" width="220"/>
+      <img src="screenshots/splash_screen.png" alt="Splash Screen" width="220"/>
     </td>
     <td align="center">
-      <img src="screenshots/user/login_screen.jpg" alt="Login Screen" width="220"/>
+      <img src="screenshots/login_screen.jpg" alt="Login Screen" width="220"/>
     </td>
     <td align="center">
-      <img src="screenshots/user/register_screen.jpg" alt="Register Screen" width="220"/>
+      <img src="screenshots/register_screen.jpg" alt="Register Screen" width="220"/>
     </td>
   </tr>
   <tr>
@@ -48,13 +48,13 @@ The project was built as a graduation project to simplify the gas ordering proce
 
   <tr>
     <td align="center">
-      <img src="screenshots/user/verification_screen.jpg" alt="Phone Verification Screen" width="220"/>
+      <img src="screenshots/verification_screen.jpg" alt="Phone Verification Screen" width="220"/>
     </td>
     <td align="center">
-      <img src="screenshots/user/map_screen.jpeg" alt="Map Screen" width="220"/>
+      <img src="screenshots/map_screen.jpeg" alt="Map Screen" width="220"/>
     </td>
     <td align="center">
-      <img src="screenshots/user/order_confirmation.jpg" alt="Order Confirmation" width="220"/>
+      <img src="screenshots/order_confirmation.jpg" alt="Order Confirmation" width="220"/>
     </td>
   </tr>
   <tr>
@@ -65,13 +65,13 @@ The project was built as a graduation project to simplify the gas ordering proce
 
   <tr>
     <td align="center">
-      <img src="screenshots/user/orders_screen.jpg" alt="Orders Screen" width="220"/>
+      <img src="screenshots/orders_screen.jpg" alt="Orders Screen" width="220"/>
     </td>
     <td align="center">
-      <img src="screenshots/user/profile_screen.jpg" alt="Profile Screen" width="220"/>
+      <img src="screenshots/profile_screen.jpg" alt="Profile Screen" width="220"/>
     </td>
     <td align="center">
-      <img src="screenshots/user/notification.jpg" alt="Notification Screen" width="220"/>
+      <img src="screenshots/notification.jpg" alt="Notification Screen" width="220"/>
     </td>
   </tr>
   <tr>
@@ -261,20 +261,19 @@ Do not upload private API keys or sensitive Firebase configuration publicly.
 ## Folder Structure
 
 ```text
-GasDeliveryUser/
+GasDelivery-User-App/
 │
 ├── app/
 ├── screenshots/
-│   └── user/
-│       ├── splash_screen.png
-│       ├── login_screen.jpg
-│       ├── register_screen.jpg
-│       ├── verification_screen.jpg
-│       ├── map_screen.jpeg
-│       ├── order_confirmation.jpg
-│       ├── orders_screen.jpg
-│       ├── profile_screen.jpg
-│       └── notification.jpg
+│   ├── splash_screen.png
+│   ├── login_screen.jpg
+│   ├── register_screen.jpg
+│   ├── verification_screen.jpg
+│   ├── map_screen.jpeg
+│   ├── order_confirmation.jpg
+│   ├── orders_screen.jpg
+│   ├── profile_screen.jpg
+│   └── notification.jpg
 │
 ├── README.md
 ├── build.gradle
