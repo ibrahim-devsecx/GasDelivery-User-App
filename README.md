@@ -258,30 +258,6 @@ Do not upload private API keys or sensitive Firebase configuration publicly.
 
 ---
 
-## Folder Structure
-
-```text
-GasDelivery-User-App/
-│
-├── app/
-├── screenshots/
-│   ├── splash_screen.png
-│   ├── login_screen.jpg
-│   ├── register_screen.jpg
-│   ├── verification_screen.jpg
-│   ├── map_screen.jpeg
-│   ├── order_confirmation.jpg
-│   ├── orders_screen.jpg
-│   ├── profile_screen.jpg
-│   └── notification.jpg
-│
-├── README.md
-├── build.gradle
-└── settings.gradle
-```
-
----
-
 ## Author
 
 **Ibrahim Awad**  
